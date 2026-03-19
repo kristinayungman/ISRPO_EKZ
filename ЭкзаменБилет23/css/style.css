@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+a {
+  text-decoration: none;
+  transition: 0;
+}
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+a:hover,
+button:hover{
+opacity: 0.5;
+}
+main{
+  height: 100vh;
+  width: 100%;
+  padding: 20px 5%;
+  box-sizing: border-box;
+  background-image: url('../img/back.png'), linear-gradient(-45deg, #ff0099, #000077);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.up ,
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo {
+  font-size: 2em;
+  font-weight: 900;
+
+}
+.menu_nav,
+ .menu_link{
+display: flex;
+gap: 20px;
+}
+.menu_link img {
+width: 45px;
+filter: hue-rotate(180deg) invert(1);
+}
+.menu_nav a{
+font-size: 1.5em;
+}
+.content_slogan {
+
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid #fff;
+}
+.content_text {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 20px;
+  width: 50%;
+
+}
+.content_slogan::before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+.content_title{
+  font-size: 2.5em;
+
+}
+.content_desc {
+  font-size: 1.5em;
+
+}
+.content_form{
+  background-color: white;
+  width: 40%;
+  padding: 30px;
+  box-sizing: border-box;
+  color: black;
+  border-radius: 50px;
+  z-index: 2;
+}
+.form_title{
+  color: black;
+}
+.form_content{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 25px;
+}
+.form_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form_item input{
+  padding: 10px;
+  border: none;
+  border-bottom: #afafaf solid 2px;
+
+}
+.form_item input:focus{
+  outline: none;
+  border-bottom: #000 solid 2px;
+
+}
+.form_btn {
+background-color: #ff0099;
+border: none;
+font-size: 1.5em;
+padding: 10px;
+border-radius: 50px;
+}
+.urist{
+  width: 250px;
+  position: absolute;
+  z-index: 1;
+  left: 45%;
+  bottom: 0%;
+}
+.lang{
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+}
+span{
+  color: #ff0099;
+}
