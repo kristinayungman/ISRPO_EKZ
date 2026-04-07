@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #7fa12b;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    text-align: center;
+}
+
+.game_container {
+    min-height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    background: transparent;
+    border: 2px solid #edf2f4;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #edf2f4;
+    transform: scale(1.1);
+}
+
+.winner-msg {
+    color: #ff6b6b;
+    font-size: 24px;
+    margin-top: 10px;
+    display: none;
+}

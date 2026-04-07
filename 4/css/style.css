@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-color: #dd1367;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+  background-color: #e14068;
+  border-radius: 20px;
+}
+.result {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}

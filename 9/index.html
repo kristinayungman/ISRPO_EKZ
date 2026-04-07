@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Билетик9</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="generate">
+            <input type="text" id="result" readonly placeholder="Логин:">
+            <input type="text" id="lastname" placeholder="Фамилия">
+            <input type="text" id="firstname" placeholder="Имя">
+            <select id="hobby">
+                <option value="n" selected disabled hidden>Хобби</option>
+                <option value="⚽">Спорт</option>
+                <option value="🌞">Музыка</option>
+                <option value="💕">Искусство</option>
+                <option value="🍾">Шоппинг</option>
+                <option value="😧">Квадроберство</option>
+            </select>
+            <input type="number" id="age" placeholder="Возраст">
+            <button class="btn">Сгенерировать</button>
+        </div>
+        <div class="container">
+            <input type="text" id="result1" readonly placeholder="Пароль:">
+            <div class="item">
+                <label for="range">Длина</label>
+                <input type="range" max="32" min="4" step="1" id="range">
+            </div>
+            <div class="item">
+                <label for="upper" class="switch">Верхний регистр</label>
+               <input id="upper" type="checkbox">
+            </div>
+              <div class="item">
+                <label for="lower">Нижний регистр</label>
+               <input id="lower" type="checkbox">
+            </div>
+            <div class="item">
+                <label for="number">Числа</label>
+               <input id="number" type="checkbox">
+            </div>
+            <div class="item">
+                <label for="symbol">Символы</label>
+               <input id="symbol" type="checkbox">
+            </div>
+             <div>
+            <button type="button" class="gen" onclick="">Сгенерировать</button>
+        </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

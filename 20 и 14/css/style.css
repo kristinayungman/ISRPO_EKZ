@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+button{
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.card{
+  display: flex;
+  width: 250px;
+  height: auto;
+  flex-direction: column;
+  box-shadow: 0 0 5px black;
+}
+.card_img{
+  width: 100%;
+  background-image: url('../img/back_baum.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_img img{
+  width: 50%;
+
+}
+.card_text{
+  padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.card_up{
+  display: flex;
+  justify-content: space-between;
+}
+.card_title{
+  width: 60%;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.card_setters{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+/* font-size: 1.1em; */
+}
+.card_count{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.3em;
+}
+.card_count button{
+  font-size: 1.3em;
+}
+.card_price{
+  font-size: 1.3em;
+}
+.card_desc{
+  font-size: 1.1em;
+}
+.card_btn{
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  font-weight: 900;
+}
+main{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
